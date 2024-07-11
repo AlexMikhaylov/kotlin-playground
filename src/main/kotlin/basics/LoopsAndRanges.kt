@@ -19,4 +19,25 @@ fun main(){
         println("reversedRange with skip step 2: $i")
     }
 
+    exploreWhile()
+    exploreDoWhile()
+
+}
+
+fun exploreWhile(){
+    val name = "Alex"
+    var random = Math.random();
+    while(random > 0.5){
+        println("While: Name is $name and random is ${random}")
+        random = Math.random();
+    }
+}
+
+fun exploreDoWhile() {
+    val name = "Alex"
+    var random = Math.random();
+    do{
+        println("Do While: Name is $name and random is ${random}")
+        random = Math.random();
+    }while(random > 0.5)
 }
